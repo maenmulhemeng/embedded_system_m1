@@ -37,4 +37,92 @@
  */
 
 
+
+/**
+ * @brief A function that prints the statistics of an array including minimum, maximum, mean, and median.
+ *
+ * <Add Extended Description Here>
+ *
+ * @param ar it is an array of unsigned char
+ *
+ * @return void
+ */
+void print_statistics(unsigned char* ar);
+
+
+/**
+ * @brief Given an array of data and a length, prints the array to the screen.
+ *
+ * <Add Extended Description Here>
+ *
+ * @param ar it is an array of unsigned char
+ * @param l it is the length of the passed array
+ *
+ * @return void
+ */
+void print_array(unsigned char* ar,int l);
+
+
+/**
+ * @brief Given an array of data and a length, returns the median value
+ *
+ * <Add Extended Description Here>
+ *
+ * @param ar it is an array of unsigned char
+ * @param l it is the length of the passed array
+ *
+ * @return median of the array (float)
+ */
+float find_median(unsigned char* ar,int l);
+
+/**
+ * @brief Given an array of data and a length, returns the mean
+ *
+ * <Add Extended Description Here>
+ *
+ * @param ar it is an array of unsigned char
+ * @param l it is the length of the passed array
+ *
+ * @return the mean of the array (float)
+ */ 
+float find_mean(unsigned char* ar,int l);
+
+/**
+ * @brief Given an array of data and a length, returns the maximum
+ *
+ * <Add Extended Description Here>
+ *
+ * @param ar it is an array of unsigned char
+ * @param l it is the length of the passed array
+ *
+ * @return the maximum of the array (float)
+ */ 
+float find_maximum(unsigned char* ar,int l);
+
+/**
+ * @brief Given an array of data and a length, returns the maximum
+ *
+ * <Add Extended Description Here>
+ *
+ * @param ar it is an array of unsigned char
+ * @param l it is the length of the passed array
+ *
+ * @return the minimum of the array (float)
+ */ 
+float find_minimum(unsigned char* ar,int l);
+
+/**
+ * @brief Given an array of data and a length, sorts the array from largest to smallest. (The zeroth Element should be the largest value, and the last element (n-1) should be the smallest value. )
+ *
+ * <Add Extended Description Here>
+ *
+ * @param ar it is an array of unsigned char
+ * @param l it is the length of the passed array
+ *
+ * @return the minimum of the array (float)
+ */ 
+unsigned char* sort_array(unsigned char* ar,int l);
+
+
+
 #endif /* __STATS_H__ */
