@@ -45,3 +45,35 @@ void main() {
   sort_array(test,SIZE);
   print_array(test,SIZE);
 }
+
+/* Add other Implementation File Code Here */
+void print_statistics(unsigned char* ar){
+	float min = find_minimum(ar,SIZE);
+	float max = find_maximum(ar,SIZE);
+	float median = find_median(ar,SIZE);
+	float mean = find_mean(ar,SIZE);
+
+}
+
+void print_array(unsigned char* ar,int l){
+	for(int i = 0 ; i < l ; i++){		
+		printf("%i\n",ar[i] );
+	}
+}
+
+float find_median(unsigned char* ar,int l){
+	
+	return 0;
+}
+float find_mean(unsigned char* ar,int l){
+	return 0;
+}
+float find_maximum(unsigned char* ar,int l){
+	return 0;
+}
+float find_minimum(unsigned char* ar,int l){
+	return 0;
+}
+unsigned char* sort_array(unsigned char* ar,int l){
+	return ar;
+}
